@@ -126,5 +126,17 @@
     <Zip>86028</Zip>
   </Address>
 </NationalPark>
-  
+<!--11-->
+<NationalPark Rating="4.8">
+  <Name>Voyageurs</Name>
+  <Phone>218-283-6600</Phone>
+  <Phone>218-283-6670</Phone>
+  <Address NearestAirport="International Falls">
+    <Number>360</Number>
+    <Street>Highway 11 East</Street>
+    <City>International Falls</City>
+    <State>MN</State>
+    <Zip>56649</Zip>
+  </Address>
+</NationalPark>
 </NationalParks>
