@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks xmls="https://ashervh1.github.io/cse445_a4">
-  <!--1-->
+<NationalParks xmlns="https://ashervh1.github.io/cse445_a4">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -14,7 +13,6 @@
       <Zip>86023</Zip>
     </Address>
   </NationalPark>
-<!--2-->
 <NationalPark Rating="4.8">
   <Name>Badlands</Name>
   <Phone>605-433-5361</Phone>
@@ -26,7 +24,6 @@
     <Zip>57750</Zip>
   </Address>
 </NationalPark>
-<!--3-->
 <NationalPark Rating="4.8">
   <Name>Bryce Canyon</Name>
   <Phone>435-834-5322</Phone>
@@ -39,7 +36,6 @@
     <Zip>84764</Zip>
   </Address>
 </NationalPark>
-<!--4-->
 <NationalPark Rating="4.8">
   <Name>Death Valley</Name>
   <Phone>760-786-3200</Phone>
@@ -51,7 +47,6 @@
     <Zip>92328</Zip>
   </Address>
 </NationalPark>
-<!--5-->
 <NationalPark Rating="4.8">
   <Name>Denali</Name>
   <Phone>907-683-9532</Phone>
@@ -63,7 +58,6 @@
     <Zip>99755</Zip>
   </Address>
 </NationalPark>
-<!--6-->
 <NationalPark Rating="4.2">
   <Name>Wind Cave</Name>
   <Phone>605-745-4600</Phone>
@@ -75,7 +69,6 @@
     <Zip>57747</Zip>
   </Address>
 </NationalPark>
-<!--7-->
 <NationalPark Rating="4.8">
   <Name>Isle Royale</Name>
   <Phone>906-482-0984</Phone>
@@ -88,7 +81,6 @@
     <Zip>49931</Zip>
   </Address>
 </NationalPark>
-<!--8-->
 <NationalPark Rating="4.8">
   <Name>Redwood</Name>
   <Phone>707-464-6101</Phone>
@@ -101,7 +93,6 @@
     <Zip>95531</Zip>
   </Address>
 </NationalPark>
-<!--9-->
 <NationalPark Rating="4.8">
   <Name>Theodore Roosevelt</Name>
   <Phone>701-623-4466</Phone>
@@ -113,7 +104,6 @@
     <Zip>58645</Zip>
   </Address>
 </NationalPark>
-<!--10-->
 <NationalPark Rating="4.3">
   <Name>Petrified Forest</Name>
   <Phone>928-524-6822</Phone>
@@ -126,7 +116,6 @@
     <Zip>86028</Zip>
   </Address>
 </NationalPark>
-<!--11-->
 <NationalPark Rating="4.8">
   <Name>Voyageurs</Name>
   <Phone>218-283-6600</Phone>
