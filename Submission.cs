@@ -19,16 +19,16 @@ namespace ConsoleApp1
 
     public class Submission
     {
-        public static string xmlURL = "Your XML URL";
-        public static string xmlErrorURL = "Your Error XML URL";
-        public static string xsdURL = "Your XSD URL";
+        public static string xmlURL = "https://github.com/ashervh1/cse445_a4/blob/main/NationalParks.xml";
+        public static string xmlErrorURL = "https://github.com/ashervh1/cse445_a4/blob/main/NationalParksErrors.xml";
+        public static string xsdURL = "https://github.com/ashervh1/cse445_a4/blob/main/NationalParks.xsd";
 
         public static void Main(string[] args)
-        {    //verify xml
+        {    //verify xml from xsd
             string result = Verification(xmlURL, xsdURL);
             Console.WriteLine(result);
 
-            //validation of error
+            //validation of error from xsd
             result = Verification(xmlErrorURL, xsdURL);
             Console.WriteLine(result);
 
