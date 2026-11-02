@@ -1,1 +1,130 @@
-//write here
+<?xml version="1.0" encoding="utf-8"?>
+<!--root renamed-->
+<NationalPark>
+  <!--1-->
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+<!--2, phone element removed-->
+<NationalPark Rating="4.8">
+  <Name>Badlands</Name>
+  <Address NearestAirport="Rapid City">
+    <Number>25216</Number>
+    <Street>Ben Reifel Road</Street>
+    <City>Interior</City>
+    <State>SD</State>
+    <Zip>57750</Zip>
+  </Address>
+</NationalPark>
+<!--3-->
+<NationalPark Rating="4.8">
+  <Name>Bryce Canyon</Name>
+  <Phone>435-834-5322</Phone>
+  <Phone>888-362-2642</Phone>
+  <Address NearestAirport="Cedar City">
+    <Number>640201</Number>
+    <Street>P.O. Box</Street>
+    <City>Bryce</City>
+    <State>UT</State>
+    <Zip>84764</Zip>
+  </Address>
+</NationalPark>
+<!--4 address closing tag removed-->
+<NationalPark Rating="4.8">
+  <Name>Death Valley</Name>
+  <Phone>760-786-3200</Phone>
+  <Address NearestAirport="Las Vegas">
+    <Number>579</Number>
+    <Street>P.O. Box</Street>
+    <City>Death Valley</City>
+    <State>CA</State>
+    <Zip>92328</Zip>
+  <Address>
+</NationalPark>
+<!--5-->
+<NationalPark Rating="4.8">
+  <Name>Denali</Name>
+  <Phone>907-683-9532</Phone>
+  <Address NearestAirport="Fairbanks">
+    <Number>9</Number>
+    <Street>P.O. Box</Street>
+    <City>Denali Park</City>
+    <State>AK</State>
+    <Zip>99755</Zip>
+  </Address>
+</NationalPark>
+<!--6 two name elements-->
+<NationalPark Rating="4.2">
+  <Name>Wind Cave</Name>
+  <Name>Windy Cave</Name>
+  <Phone>605-745-4600</Phone>
+  <Address NearestAirport="Rapid City">
+    <Number>26611</Number>
+    <Street>US Highway 385</Street>
+    <City>Hot Springs</City>
+    <State>SD</State>
+    <Zip>57747</Zip>
+  </Address>
+</NationalPark>
+<!--7-->
+<NationalPark Rating="4.8">
+  <Name>Isle Royale</Name>
+  <Phone>906-482-0984</Phone>
+  <Phone>800-433-1986</Phone>
+  <Address NearestAirport="Houghton">
+    <Number>800</Number>
+    <Street>East Lakeshore Drive</Street>
+    <City>Houghton</City>
+    <State>MI</State>
+    <Zip>49931</Zip>
+  </Address>
+</NationalPark>
+<!--8 name removed (required attribute)-->
+<NationalPark Rating="4.8">
+  <Phone>707-464-6101</Phone>
+  <Phone>707-465-7335</Phone>
+  <Address NearestAirport="Crescent City">
+    <Number>1111</Number>
+    <Street>Second Street</Street>
+    <City>Crescent City</City>
+    <State>CA</State>
+    <Zip>95531</Zip>
+  </Address>
+</NationalPark>
+<!--9-->
+<NationalPark Rating="4.8">
+  <Name>Theodore Roosevelt</Name>
+  <Phone>701-623-4466</Phone>
+  <Address NearestAirport="Dickinson">
+    <Number>315</Number>
+    <Street>Second Avenue</Street>
+    <City>Medora</City>
+    <State>ND</State>
+    <Zip>58645</Zip>
+  </Address>
+</NationalPark>
+<!--10-->
+<NationalPark Rating="4.3">
+  <Name>Petrified Forest</Name>
+  <Phone>928-524-6822</Phone>
+  <Phone>928-524-6228</Phone>
+  <Address NearestAirport="Flagstaff">
+    <Number>1</Number>
+    <Street>Park Road</Street>
+    <City>Petrified Forest</City>
+    <State>AZ</State>
+    <Zip>86028</Zip>
+  </Address>
+</NationalPark>
+  
+</NationalParks>
