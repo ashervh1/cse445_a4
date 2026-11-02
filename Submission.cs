@@ -24,15 +24,15 @@ namespace ConsoleApp1
         public static string xsdURL = "Your XSD URL";
 
         public static void Main(string[] args)
-        {
+        {    //verify xml
             string result = Verification(xmlURL, xsdURL);
             Console.WriteLine(result);
 
-
+            //validation of error
             result = Verification(xmlErrorURL, xsdURL);
             Console.WriteLine(result);
 
-
+            //json convertion
             result = Xml2Json(xmlURL);
             Console.WriteLine(result);
         }
@@ -41,6 +41,9 @@ namespace ConsoleApp1
         public static string Verification(string xmlUrl, string xsdUrl)
         {
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
+            StringBuilder err = new StringBuilder();
+
+            
         }
 
         public static string Xml2Json(string xmlUrl)
